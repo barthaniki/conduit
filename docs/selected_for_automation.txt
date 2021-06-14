@@ -1,0 +1,11 @@
+A001, CON-TC001 regisztráció nem megfelelő email címmel, felület automatizálás, mert alapfunkció
+A002, CON-TC002 regisztráció nem megfelelő jelszóval, felület automatizálás, mert alapfunkció
+A003, CON-TC003 regisztráció megfelelő adatokkal, felület automatizálás, mert alapfunkció
+A004, CON-TC004 login, felület automatizálás, mert ismételt végrehajtást tartalmaz
+A005, CON-TC005 logout, felület automatizálás, mert ismételt végrehajtást tartalmaz
+A006, CON-TC007 új blog bejegyzés, felület automatizálás, mert ismételt végrehajtást tartalmaz
+A007, CON-TC009 blog bejegyzés szerkesztése, felület automatizálás, mert ismételt végrehajtást tartalmaz
+A008, CON-TC010 blog bejegyzés törése, felület automatizálás, mert alapfunkció
+
+CON-TC006 keresés címke alapján, nem automatizálnám, mert a manuális tesztelés megfelelő
+CON-TC008 blog bejegyzés megtekintése, nem automatizálnám, mert a manuális tesztelés megfelelő

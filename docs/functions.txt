@@ -1,0 +1,10 @@
+regisztráció: az alkalmazásba be lehet regisztrálni, név, emailcím és jelszó megadásával
+bejelentkezés: az alkalmazásba be lehet jelentkezni egy meglévő felhasználói fiókkal
+kijelentkezés: az alkalmazásból ki lehet jelentkezni
+blog bejegyzés létrehozása: az alkalmazásban blog bejegyzéseket lehet létrehozni
+blog bejegyzés szerkesztése: az alkalmazásban a saját blog bejegyzéseket lehet szerkeszteni
+blog bejegyzés törlése: az alkalmazásban a saját blog bejegyzéseket lehet törölni
+blog bejegyzések elérése: az alkalmazásban elérhetőek a saját és más szerzők blog bejegyzései
+blog bejegyzés tartalmának megtekintése: az alkalmazásban megtekinthetőek a blog bejegyzések részletei
+blog bejegyzés címkézése: az alkalmazásban meg lehet címkézni a saját blog bejegyzéseket
+blog bejegyzés keresés címke alapján: az alkalmazásban címke alapján lehet keresni blog bejegyzéseket

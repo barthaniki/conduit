@@ -48,7 +48,7 @@ jobs:
         seleniumbase install chromedriver
     - name: Run Tests
       run: |
-        selenium-side-runner -c "browserName=chrome goog:chromeOptions.args=[disable-infobars, headless]" test.side --alluredir=allure-results
+        selenium-side-runner -c "browserName=chrome goog:chromeOptions.args=[disable-infobars, headless]" /seleniumide-tests/*.side --alluredir=allure-results
      
     - name: Get Allure history
       uses: actions/checkout@v2

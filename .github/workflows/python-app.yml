@@ -41,13 +41,14 @@ jobs:
       run: |
         seleniumbase install chromedriver
     - name: Start Conduit
-      run: docker compose up -d
+      run: |
+        docker-compose up -d
     - name: Test with pytest
       run: |
         pytest --alluredir=allure-results
     - name: Run Tests
       run: |
-        selenium-side-runner -c "browserName=chrome goog:chromeOptions.args=[disable-infobars, headless]" /seleniumide-tests/*.side
+        selenium-side-runner -c "browserName=chrome goog:chromeOptions.args=[disable-infobars, headless]" /seleniumide-tests/.side
      
     - name: Get Allure history
       uses: actions/checkout@v2

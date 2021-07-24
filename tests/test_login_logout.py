@@ -7,10 +7,11 @@ from selenium.webdriver.common.by import By
 options = Options()
 options.headless = True
 
+driver = webdriver.Chrome(executable_path=ChromeDriverManager().install(), options=options)
+
 
 # test login and logout functions
 def test_login_logout():
-    driver = webdriver.Chrome(executable_path=ChromeDriverManager().install(), options=options)
     url = "http://localhost:1667/#/"
     driver.get(url)
     time.sleep(2)

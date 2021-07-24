@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://barthaniki.github.io/conduit",
+  "buildOrder" : 28,
+  "buildName" : "GitHub Actions Run #1062032724",
+  "buildUrl" : "https://github.com/barthaniki/conduit/actions/runs/1062032724",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://barthaniki.github.io/conduit/28/"
+} ]

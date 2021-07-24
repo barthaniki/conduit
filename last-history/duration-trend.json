@@ -1,3 +1,8 @@
 [ {
+  "buildOrder" : 32,
+  "reportUrl" : "https://barthaniki.github.io/conduit/32/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
   "data" : { }
 } ]

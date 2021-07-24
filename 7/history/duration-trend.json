@@ -3,6 +3,13 @@
   "reportUrl" : "https://barthaniki.github.io/conduit/7/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "duration" : 878
+  }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "https://barthaniki.github.io/conduit/7/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "duration" : 477
   }
 }, {

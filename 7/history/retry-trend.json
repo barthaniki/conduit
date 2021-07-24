@@ -7,6 +7,14 @@
     "retry" : 0
   }
 }, {
+  "buildOrder" : 7,
+  "reportUrl" : "https://barthaniki.github.io/conduit/7/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 1,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 35,
   "reportUrl" : "https://barthaniki.github.io/conduit/35/",
   "reportName" : "Allure Report with history",

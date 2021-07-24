@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Sat Jul 24 09:48:26 GMT 2021","Sat Jul 24 09:48:26 GMT 2021","477","tests","test_login_logout","","","","test_login_logout",""
+"broken","Sat Jul 24 09:59:17 GMT 2021","Sat Jul 24 09:59:17 GMT 2021","878","tests","test_login_logout","","","","test_login_logout",""

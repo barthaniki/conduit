@@ -6,13 +6,13 @@
       "name" : "test_login_logout",
       "children" : [ {
         "name" : "test_login_logout",
-        "uid" : "118cb07a9ef98a7",
+        "uid" : "69c4c0efce16678c",
         "parentUid" : "4f18a0117178ec2ded97f6449227cf37",
         "status" : "broken",
         "time" : {
-          "start" : 1627165706088,
-          "stop" : 1627165708847,
-          "duration" : 2759
+          "start" : 1627166448548,
+          "stop" : 1627166450790,
+          "duration" : 2242
         },
         "flaky" : false,
         "newFailed" : false,

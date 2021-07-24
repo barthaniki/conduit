@@ -1,4 +1,11 @@
 [ {
+  "buildOrder" : 12,
+  "reportUrl" : "https://barthaniki.github.io/conduit/12/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 2242
+  }
+}, {
   "buildOrder" : 11,
   "reportUrl" : "https://barthaniki.github.io/conduit/11/",
   "reportName" : "Allure Report with history",

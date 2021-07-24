@@ -1,70 +1,62 @@
 [ {
+  "buildOrder" : 9,
+  "reportUrl" : "https://barthaniki.github.io/conduit/9/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 2457
+  }
+}, {
   "buildOrder" : 8,
   "reportUrl" : "https://barthaniki.github.io/conduit/8/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "run" : 1,
-    "retry" : 0
+    "duration" : 4586
   }
 }, {
   "buildOrder" : 7,
   "reportUrl" : "https://barthaniki.github.io/conduit/7/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "run" : 1,
-    "retry" : 0
+    "duration" : 878
   }
 }, {
   "buildOrder" : 7,
   "reportUrl" : "https://barthaniki.github.io/conduit/7/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "run" : 1,
-    "retry" : 0
+    "duration" : 477
   }
 }, {
   "buildOrder" : 35,
   "reportUrl" : "https://barthaniki.github.io/conduit/35/",
   "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 0,
-    "retry" : 0
-  }
+  "data" : { }
 }, {
   "buildOrder" : 3,
   "reportUrl" : "https://barthaniki.github.io/conduit/3/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "run" : 4,
-    "retry" : 0
+    "duration" : 4004
   }
 }, {
   "buildOrder" : 5,
   "reportUrl" : "https://barthaniki.github.io/conduit/5/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "run" : 2,
-    "retry" : 0
+    "duration" : 2373
   }
 }, {
   "buildOrder" : 4,
   "reportUrl" : "https://barthaniki.github.io/conduit/4/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "run" : 3,
-    "retry" : 0
+    "duration" : 9766
   }
 }, {
   "buildOrder" : 32,
   "reportUrl" : "https://barthaniki.github.io/conduit/32/",
   "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 0,
-    "retry" : 0
-  }
+  "data" : { }
 }, {
-  "data" : {
-    "run" : 0,
-    "retry" : 0
-  }
+  "data" : { }
 } ]

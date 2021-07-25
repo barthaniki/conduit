@@ -1,4 +1,11 @@
 [ {
+  "buildOrder" : 13,
+  "reportUrl" : "https://barthaniki.github.io/conduit/13/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "Test defects" : 1
+  }
+}, {
   "buildOrder" : 12,
   "reportUrl" : "https://barthaniki.github.io/conduit/12/",
   "reportName" : "Allure Report with history",

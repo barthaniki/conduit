@@ -10,8 +10,8 @@ options.headless = True
 driver = webdriver.Chrome(executable_path=ChromeDriverManager().install(), options=options)
 
 
-# test login and logout functions
-def test_login_logout():
+# test login function
+def test_login():
     url = "http://localhost:1667/#/"
     driver.get(url)
     time.sleep(2)
@@ -27,18 +27,13 @@ def test_login_logout():
     driver.find_element(By.XPATH, '//*[@type="text"]').send_keys(user_email)
     driver.find_element(By.XPATH, '//*[@type="password"]').send_keys(password)
     driver.find_element(By.TAG_NAME, "button").click()
-    time.sleep(3)
+    time.sleep(2)
 
     # check login
     assert driver.find_element(By.XPATH, '//*[@id="app"]/nav/div/ul/li[4]/a').text == user_name
     time.sleep(2)
 
-    # test logout function
+    # logout
     driver.find_element(By.XPATH, '//a[@active-class="active"]').click()
-
-    # check logout
-    assert driver.find_element(By.XPATH, '//a[@href="#/login"]').is_displayed()
-    time.sleep(2)
-
     driver.close()
     driver.quit()

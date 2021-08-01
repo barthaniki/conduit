@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 options = Options()
 options.headless = True
 
-driver = webdriver.Chrome(ChromeDriverManager().install(), options)
+driver = webdriver.Chrome(executable_path=ChromeDriverManager().install(), options=options)
 
 
 # test cookie function

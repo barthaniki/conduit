@@ -1,4 +1,16 @@
 [ {
+  "buildOrder" : 16,
+  "reportUrl" : "https://barthaniki.github.io/conduit/16/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 0
+  }
+}, {
   "buildOrder" : 15,
   "reportUrl" : "https://barthaniki.github.io/conduit/15/",
   "reportName" : "Allure Report with history",

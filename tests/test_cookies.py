@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 options = Options()
 options.headless = True
 
-driver = webdriver.Chrome(executable_path=ChromeDriverManager().install(), options=options)
+driver = webdriver.Chrome(ChromeDriverManager().install(), options)
 
 
 # test cookie function
@@ -16,22 +16,16 @@ def test_cookies():
     driver.get(url)
     time.sleep(2)
 
-    # prerequisite: existing test user login
-    user_name = "testuser1"
-    user_email = (user_name + "@example.com")
-    password = "Abcd123$"
-    driver.find_element(By.XPATH, '//a[@href="#/login"]').click()
-    driver.find_element(By.XPATH, '//*[@type="text"]').send_keys(user_email)
-    driver.find_element(By.XPATH, '//*[@type="password"]').send_keys(password)
-    driver.find_element(By.TAG_NAME, "button").click()
+    # accept cookies
+    list_divs_by_id = driver.find_elements(By.XPATH, '//div[@id="cookie-policy-panel"]')
+    assert len(list_divs_by_id) == 1
     time.sleep(2)
+    driver.find_element(By.XPATH, '//div[@id="cookie-policy-panel"]//div[contains(text(), "I accept!")]').click()
 
-    # test cookie function - accept
-    assert driver.find_element(By.XPATH, '//*[@id="cookie-policy-panel"]').is_displayed() is True
-    driver.find_element(By.XPATH,
-                        '//button[@class="cookie__bar__buttons__button cookie__bar__buttons__button--accept"]').click()
+    # check cookie-policy-panel is disappeared
+    time.sleep(2)
+    list_divs_by_id = driver.find_elements(By.XPATH, '//div[@id="cookie-policy-panel"]')
+    assert len(list_divs_by_id) == 0
 
-    # logout
-    driver.find_element(By.XPATH, '//a[@active-class="active"]').click()
     driver.close()
     driver.quit()

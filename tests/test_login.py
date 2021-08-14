@@ -26,11 +26,11 @@ def test_login():
     driver.find_element(By.XPATH, '//*[@type="text"]').send_keys(user_email)
     driver.find_element(By.XPATH, '//*[@type="password"]').send_keys(password)
     driver.find_element(By.TAG_NAME, "button").click()
-    time.sleep(2)
+    time.sleep(1)
 
     # check login
-    assert driver.find_element(By.XPATH, '//*[@id="app"]/nav/div/ul/li[4]/a').text == user_name
-    time.sleep(2)
+    assert driver.find_element(By.XPATH, f'//a[@href="#/@{user_name}/"]').text == user_name
+    time.sleep(1)
 
     # logout
     driver.find_element(By.XPATH, '//a[@active-class="active"]').click()

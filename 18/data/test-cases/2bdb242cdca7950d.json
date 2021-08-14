@@ -1,0 +1,53 @@
+{
+  "uid" : "2bdb242cdca7950d",
+  "name" : "test_modify",
+  "fullName" : "tests.test_modify#test_modify",
+  "historyId" : "94a73042b2aa8e5b299bf56c8743eea2",
+  "time" : {
+    "start" : 1628966864753,
+    "stop" : 1628966877001,
+    "duration" : 12248
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_modify"
+  }, {
+    "name" : "host",
+    "value" : "fv-az42-898"
+  }, {
+    "name" : "thread",
+    "value" : "3730-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_modify"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2bdb242cdca7950d.json",
+  "parameterValues" : [ ]
+}
